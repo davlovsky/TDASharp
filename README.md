@@ -5,6 +5,7 @@
 <H2>For APIs</H2>
 <ol>
   <li>TDAClient tdaclient = new TDAClient(TDA_Account, TDA_API, RefreshToken);</li>
+  <li>tdaclient.Login();</li>
 </ol>
 <h3>Examples</h3>
 <ul>
