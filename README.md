@@ -17,7 +17,9 @@
 <ol>
   <li>To Start Websocket</li>
 var principals = tdaclient.GetUserPrincipals(preferencefields.streamer);
+  
 tdaWebsocket = new TDAWebsocket(principals);
+
 tdaWebsocket.StartWebSocket();
 
   <li>To Stop Websocket</li>
