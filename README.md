@@ -17,12 +17,11 @@
 <H2>For Streaming</H2>
 <ol>
   <li>To Start Websocket</li>
-var principals = tdaclient.GetUserPrincipals(preferencefields.streamer);
-  
-tdaWebsocket = new TDAWebsocket(principals);
-
-tdaWebsocket.StartWebSocket();
-
+  <ul style="font-size: 10px;">
+    <li>var principals = tdaclient.GetUserPrincipals(preferencefields.streamer);</li>
+    <li>tdaWebsocket = new TDAWebsocket(principals);</li>
+    <li>tdaWebsocket.StartWebSocket();</li>
+  </ul>
   <li>To Stop Websocket</li>
 
 tdaWebsocket.StopWebSocket();
