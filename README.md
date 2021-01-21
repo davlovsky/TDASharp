@@ -22,6 +22,7 @@
     <li>tdaWebsocket = new TDAWebsocket(principals);</li>
     <li>tdaWebsocket.StartWebSocket();</li>
   </ul>
+  <BR>
   <li>To Stop Websocket</li>
 
 tdaWebsocket.StopWebSocket();
